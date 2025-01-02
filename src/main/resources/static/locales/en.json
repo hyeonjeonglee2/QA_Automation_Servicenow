@@ -1,0 +1,49 @@
+{
+    "common": {
+        "success": "저장되었습니다.",
+        "faile": "저장에 실패하였습니다<br>다시 시도해 주세요.",
+        "duplicate": "{{name}}: 중복되었습니다.",
+        "duplicate_msg": "다른 값을 입력해 주세요.",
+        "confirm_logout": "로그아웃하시겠습니까?",
+        "confirm_autoacw_N": "다음 CTI 로그인 시에 적용됩니다.",
+        "confirm_autoacw_Y": "자동후처리가 적용되었습니다."
+    },
+    "login" : {
+		"error" :{
+			"no_match_data" : "로그인 정보를 확인해주세요.",
+			"login_user" : "다른 컴퓨터에 이미 로그인되어 있습니다. <br>해당 컴퓨터를 로그아웃 처리 후 로그인 하시겠습니까?"
+		}
+	},
+    "validate":{
+    	"required": "{{name}}: 필수입니다.",
+    	"only_num": "{{name}}: 숫자만 입력해 주세요.",
+    	"only_eng": "{{name}}: 영어만 입력해 주세요.",
+    	"only_kor": "{{name}}: 한글만 입력해 주세요.",
+    	"maxlength": "{{name}}: {{num}}글자 이내로 입력해 주세요.",
+    	"from_num": "{{name}}: {{num}} 이상의 숫자를 입력해 주세요.",
+    	"to_num": "{{name}}: {{num}} 이하의 숫자를 입력해 주세요.",
+    	"form_type": "{{name}}: 형식이 올바르지 않습니다.",
+    	"date_form_type": "{{name}}: 날짜 형식이 올바르지 않습니다.",
+    	"start_end": "{{name}}: 시작 일자는 마지막 일자보다 앞선 날짜여야 합니다.",
+    	"email": "{{name}}: 이메일 형식이 올바르지 않습니다.",
+    	"ipaddress": "{{name}}: IP 주소 형식이 올바르지 않습니다.",
+    	"filesize": "첨부 가능한 용량은 최대 {{num}}MB입니다.",
+    	"filename": "파일명이 {{num}}byte 이하의 파일만 첨부 가능합니다.",
+    	"extension": "파일확장자는 {{name}}만 첨부가능합니다.",
+    	"select_send_message": "메시지를 보낼 대상을 선택해 주세요.",
+    	"input_send_message": "메시지를 입력해 주세요.", 
+    	"input_target": "내선번호를 입력해 주세요." 
+    },
+    "button": {
+    	"delete_not_exist": "삭제 할 항목을 선택해주세요.",
+    	"delete_confirm": "삭제 후 복구할 수 없습니다.<br>삭제하시겠습니까?",
+    	"delete_success": "삭제되었습니다.",
+    	"delete_faile": "삭제에 실패했습니다.<br>다시 시도해 주세요.",
+    	"add_success": "등록되었습니다.",
+    	"add_faile": "등록에 실패했습니다.<br>다시 시도해 주세요."
+    },
+    "cti" : {
+    	"server_not_connect": "CTI 서버에 접속하지 못했습니다.",
+    	"server_not_login": "CTI 서버에 로그인 못했습니다."
+    }
+}

@@ -1,0 +1,7 @@
+spring:
+# Spring datasource설정
+  datasource:
+      driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+      url: jdbc:log4jdbc:mysql://localhost:4406/qa_automation_dev?characterEncoding=UTF-8&serverTimezone=UTC&allowMultiQueries=true
+      username: qa_admin
+      password: qa_admin0!

@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    active: dev   #필수 현재 사용 하고 싶은 yml 파일 (yml  파일에서 application-xxx.yml xxx를 넣어준다)
+    default: dev  #필수 default 로 실행할 yml 설정 파일
+jwt:
+  secret: "aGFsbHN0ZWVsZmx5aGFyZGx5Y2hpY2tlbmdpdmluZ3BhcnR5b3VycHJpemVzaG93bnQ="
